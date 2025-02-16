@@ -1,0 +1,85 @@
+
+.bg-img{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url('img/bg-img.png');
+    background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    width: 25%;
+}
+.min-vh-90{
+    min-height: 80vh;
+}
+.img-size img{
+    height: 200px;
+}
+.bg-gradient-custom {
+    background: linear-gradient(to bottom, rgb(29, 22, 40), rgb(32, 14, 35));
+}
+
+.accordion-item {
+    border-bottom: none ;
+}
+  
+.accordion-button:focus {
+    box-shadow: none;
+}
+  
+
+.accordion-button {
+    background-color: #212529 !important; 
+    color: white !important; 
+    border: none !important;
+}
+  
+
+.accordion-button.collapsed {
+    background-color: #212529 !important;
+    color: white !important;
+  }
+  
+ 
+.accordion-button::after {
+    filter: invert(1); 
+  }
+  
+
+.accordion-button:hover {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+  
+
+.accordion-body {
+    background-color: #1a1d1f  !important;
+    color: white !important;
+
+}
+  
+/* footer */
+.display-a-block a{
+    display: block;
+    line-height: 30px;
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.image-hover {
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer;
+  }
+  
+  .image-hover:hover {
+    transform: scale(1.05);
+  }
+
+@media (min-width:992px){
+    .logo{
+        width: 50%;
+    }
+}
+
+
+
